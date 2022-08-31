@@ -27,8 +27,30 @@
   <body>
     <section class="form-container">
       <div class="grid-2-col">
-        <img src="./images/bg-main-desktop.png" alt="dark=background" />
-        <div class="placeholder"></div>
+        <img
+          src="./images/bg-main-desktop.png"
+          alt="dark=background"
+          class="hero-img"
+        />
+        <div class="cont">
+          <form>
+            <label for="name">cardholder name</label>
+            <br />
+            <input type="text" id="name" placeholder="e.g. robin reyes" />
+            <br />
+            <label for="number">card number</label>
+            <br />
+            <input type="text" id="number" placeholder="1234 5678 9101 2134" />
+            <br />
+            <label for="exp-date">exp. date (mm/yy)</label>
+            <label for="cvc" id="cvc-label">cvc</label>
+            <br />
+            <input type="text" id="exp-date" placeholder="MM" />
+            <input type="text" id="exp-date" placeholder="YY" />
+            <input type="text" id="cvc" placeholder="123" />
+            <button>Confirm</button>
+          </form>
+        </div>
       </div>
       <div class="front card">
         <img src="./images/bg-card-front.png" alt="front of credit card" />
@@ -42,6 +64,7 @@
       </div>
       <div class="back card">
         <img src="./images/bg-card-back.png" alt="back of credit card" />
+        <p id="card-back-number">000</p>
       </div>
     </section>
 
