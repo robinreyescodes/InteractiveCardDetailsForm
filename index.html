@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Interactive card details form</title>
+    <script defer src="app.js"></script>
   </head>
   <body>
     <section class="form-container">
@@ -45,8 +46,8 @@
             <label for="exp-date">exp. date (mm/yy)</label>
             <label for="cvc" id="cvc-label">cvc</label>
             <br />
-            <input type="text" id="exp-date" placeholder="MM" />
-            <input type="text" id="exp-date" placeholder="YY" />
+            <input type="text" class="exp-date" id="month" placeholder="MM" />
+            <input type="text" class="exp-date" id="year" placeholder="YY" />
             <input type="text" id="cvc" placeholder="123" />
             <button>Confirm</button>
           </form>
