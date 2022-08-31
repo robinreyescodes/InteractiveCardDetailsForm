@@ -71,6 +71,10 @@
   position: relative;
 }
 
+span {
+  font-size: 1.4rem;
+}
+
 form {
   position: absolute;
   font-size: 3rem;
