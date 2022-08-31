@@ -37,7 +37,12 @@
           <form>
             <label for="name">cardholder name</label>
             <br />
-            <input type="text" id="name" placeholder="e.g. robin reyes" />
+            <input
+              type="text"
+              id="name"
+              placeholder="e.g. robin reyes"
+              required
+            />
             <br />
             <label for="number">card number</label>
             <br />
@@ -48,7 +53,7 @@
             <br />
             <input type="text" class="exp-date" id="month" placeholder="MM" />
             <input type="text" class="exp-date" id="year" placeholder="YY" />
-            <input type="text" id="cvc" placeholder="123" />
+            <input type="text" id="cvc" placeholder="123" required />
             <button>Confirm</button>
           </form>
         </div>

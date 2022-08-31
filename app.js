@@ -14,8 +14,8 @@ nameInput.addEventListener("keyup", (e) => {
 });
 
 numberInput.addEventListener("keyup", (e) => {
-  monthInput.value = "";
-  cardNumber.textContent = numberInput.value;
+  if (numberInput.value === "") cardNumber.textContent = "0000 0000 0000 0000";
+  else cardNumber.textContent = numberInput.value;
 });
 
 monthInput.addEventListener("keyup", (e) => {
